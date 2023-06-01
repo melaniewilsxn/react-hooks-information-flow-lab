@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-function Header(){
+function Header({ onDarkModeClick, isDarkMode }){
+
     return(
         <header>
             <h2>Shopster</h2>
